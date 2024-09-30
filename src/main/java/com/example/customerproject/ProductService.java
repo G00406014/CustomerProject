@@ -15,6 +15,6 @@ public class ProductService {
     }
 
     public List<Product> getAllProducts() {
-        return new ArrayList<>(productList); // Return a copy to avoid modification
+        return new ArrayList<>(productList);
     }
 }
